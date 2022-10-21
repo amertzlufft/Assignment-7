@@ -1,0 +1,21 @@
+package Junitmod7;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class junit {
+
+	@Test
+	void test() {
+		WordOccurrence Test = new WordOccurrence();
+		int output = Test.countA("textFile")
+				assertEquals(int, output);
+	}
+
+	private void assertEquals(int i, int output) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
